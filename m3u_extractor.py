@@ -11,4 +11,4 @@ with open('tv-channels.txt', 'w') as f:
             name = line.split(',')[1]
             next_line = lines[lines.index(line) + 1]
             url = next_line.strip()
-            f.write(f'\n{name}:{url}')
+            f.write(f'\n{name},{url}')
