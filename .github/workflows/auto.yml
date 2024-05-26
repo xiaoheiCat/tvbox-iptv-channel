@@ -19,6 +19,8 @@ jobs:
       run: python m3u_extractor.py
     - name: Commit and push changes
       run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         git remote set-url --push origin https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
         git add tv-channels.txt
         git commit -m "Auto updated channel list"
