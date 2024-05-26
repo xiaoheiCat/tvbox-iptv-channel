@@ -1,9 +1,8 @@
 name: Extract M3U Info
 on:
   push:
-    paths:
-      https://github.com/BurningC4/Chinese-IPTV
-      https://github.com/BurningC4/xiaoheiCat/tvbox-iptv-channel
+  schedule:
+    - cron: '0 * * * *'
 jobs:
   extract:
     runs-on: ubuntu-latest
