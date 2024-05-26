@@ -1,14 +1,28 @@
 import requests
 
-response = requests.get('https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u')
+url_list = ["BurningC4","https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
+           "joevess","https://raw.githubusercontent.com/joevess/IPTV/main/sources/iptv_sources.m3u8"]
 
-lines = response.text.split('\n')
+url = []
+name = []
+response = []
 
-with open('tv-channels.txt', 'w') as f:
-    f.write("Channels by xiaoheicat,#genre#")
-    for line in lines:
-        if line.startswith('#EXTINF'):
-            name = line.split(',')[1]
-            next_line = lines[lines.index(line) + 1]
-            url = next_line.strip()
-            f.write(f'\n{name},{url}')
+for i in range(len(url_list)):
+    if i % 2 == 0:
+        name.append(url_list[i])
+    else:
+        url.append(url_list[i])
+
+for i in url:
+    response.append(requests.get(i).text)
+
+for i in range(len(response)):
+    lines = response[i].split('\n')
+    with open(f'tv-channels-{name[i]}.txt', 'w') as f:
+        f.write("Channels by xiaoheicat,#genre#")
+        for line in lines:
+            if line.startswith('#EXTINF'):
+                cname = line.split(',')[1]
+                next_line = lines[lines.index(line) + 1]
+                curl = next_line.strip()
+                f.write(f'\n{cname},{curl}')
