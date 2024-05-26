@@ -5,7 +5,7 @@ response = requests.get('https://raw.githubusercontent.com/BurningC4/Chinese-IPT
 lines = response.text.split('\n')
 
 with open('tv-channels.txt', 'w') as f:
-    f.write("xiaoheicat's Channel,#genre#")
+    f.write("Channels by xiaoheicat,#genre#")
     for line in lines:
         if line.startswith('#EXTINF'):
             name = line.split(',')[1]
