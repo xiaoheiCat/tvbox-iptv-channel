@@ -9,10 +9,10 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    - name: Install Python dependencies
-      run: |
-        pip install --upgrade pip
-        python -m pip install -r requirements.txt
+#    - name: Install Python dependencies
+#      run: |
+#        pip install --upgrade pip
+#        python -m pip install -r requirements.txt
     - name: Extract and write to file
       run: python m3u_extractor.py
     - name: Upload file to repository root
