@@ -1,10 +1,9 @@
 name: Extract M3U Info
 on:
   push:
-    branches:
-      - master
     paths:
-      - 'https://github.com/BurningC4/Chinese-IPTV'
+      BurningC4/Chinese-IPTV
+      xiaoheiCat/tvbox-iptv-channel
 jobs:
   extract:
     runs-on: ubuntu-latest
