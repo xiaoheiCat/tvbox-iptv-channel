@@ -1,6 +1,8 @@
 name: Extract M3U Info
 on:
   push:
+    paths-ignore:
+      tv-channels.txt
   schedule:
     - cron: '0 * * * *'
 jobs:
@@ -15,8 +17,12 @@ jobs:
 #        python -m pip install -r requirements.txt
     - name: Extract and write to file
       run: python m3u_extractor.py
-    - name: Upload file to repository root
-      uses: actions/upload-artifact@v2
-      with:
-        name: tv-channels
-        path: tv-channels.txt
+    - name: Commit and push changes
+      env:
+         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add tv-channels.txt
+        git commit -m "Auto updated channel list"
+        git push
