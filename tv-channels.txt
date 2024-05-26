@@ -1,0 +1,61 @@
+xiaoheicat's Channel,#genre#
+{CCTV-1 综合}:{item.get('url', '')}
+{CCTV-2 财经}:{item.get('url', '')}
+{CCTV-3 综艺}:{item.get('url', '')}
+{CCTV-4 中文国际}:{item.get('url', '')}
+{CCTV-5 体育}:{item.get('url', '')}
+{CCTV-5+ 体育赛事}:{item.get('url', '')}
+{CCTV-6 电影}:{item.get('url', '')}
+{CCTV-7 国防军事}:{item.get('url', '')}
+{CCTV-8 电视剧}:{item.get('url', '')}
+{CCTV-9 纪录}:{item.get('url', '')}
+{CCTV-10 科教}:{item.get('url', '')}
+{CCTV-11 戏曲}:{item.get('url', '')}
+{CCTV-12 社会与法}:{item.get('url', '')}
+{CCTV-13 新闻}:{item.get('url', '')}
+{CCTV-14 少儿}:{item.get('url', '')}
+{CCTV-15 音乐}:{item.get('url', '')}
+{CCTV-16 奥林匹克}:{item.get('url', '')}
+{CCTV-17 农业农村}:{item.get('url', '')}
+{安徽卫视}:{item.get('url', '')}
+{兵团卫视}:{item.get('url', '')}
+{北京卫视}:{item.get('url', '')}
+{卡酷少儿}:{item.get('url', '')}
+{BTV纪实}:{item.get('url', '')}
+{CETV-1}:{item.get('url', '')}
+{CETV-2}:{item.get('url', '')}
+{CETV-3}:{item.get('url', '')}
+{CETV-4}:{item.get('url', '')}
+{重庆卫视}:{item.get('url', '')}
+{东方卫视}:{item.get('url', '')}
+{东南卫视}:{item.get('url', '')}
+{甘肃卫视}:{item.get('url', '')}
+{广东卫视}:{item.get('url', '')}
+{广西卫视}:{item.get('url', '')}
+{贵州卫视}:{item.get('url', '')}
+{河北卫视}:{item.get('url', '')}
+{黑龙江卫视}:{item.get('url', '')}
+{河南卫视}:{item.get('url', '')}
+{湖北卫视}:{item.get('url', '')}
+{湖南卫视}:{item.get('url', '')}
+{江苏卫视}:{item.get('url', '')}
+{江西卫视}:{item.get('url', '')}
+{吉林卫视}:{item.get('url', '')}
+{辽宁卫视}:{item.get('url', '')}
+{内蒙古卫视}:{item.get('url', '')}
+{宁夏卫视}:{item.get('url', '')}
+{青海卫视}:{item.get('url', '')}
+{山东教育电视台}:{item.get('url', '')}
+{山东卫视}:{item.get('url', '')}
+{山西卫视}:{item.get('url', '')}
+{陕西卫视}:{item.get('url', '')}
+{深圳卫视}:{item.get('url', '')}
+{四川卫视}:{item.get('url', '')}
+{天津卫视}:{item.get('url', '')}
+{海南卫视}:{item.get('url', '')}
+{厦门卫视}:{item.get('url', '')}
+{新疆卫视}:{item.get('url', '')}
+{西藏卫视}:{item.get('url', '')}
+{延边卫视}:{item.get('url', '')}
+{云南卫视}:{item.get('url', '')}
+{浙江卫视}:{item.get('url', '')}
