@@ -18,9 +18,9 @@ for i in url:
 
 for i in range(len(response)):
     lines = response[i].split('\n')
-    with open(f'tv-channels-{name[i]}.txt', 'w') as f:
+    with open('tv-channels.txt', 'w') as f:
         # f.write("Channels by xiaoheicat,#genre#")
-        f.write(f"{name[i]},#genre#")
+        f.write(f"\n{name[i]},#genre#")
         for line in lines:
             if line.startswith('#EXTINF'):
                 cname = line.split(',')[1]
