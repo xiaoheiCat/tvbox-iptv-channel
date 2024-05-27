@@ -2,7 +2,7 @@ import requests
 
 url_list = ["BurningC4","https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
            "joevess","https://raw.githubusercontent.com/joevess/IPTV/main/sources/iptv_sources.m3u8",
-           "imDazui-百视TV-IPv6","https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/%E7%99%BE%E8%A7%86TV.m3u"]
+           "lylehust-IPv6","https://raw.githubusercontent.com/lylehust/Chinese-IPTV/master/TV-SXYD.m3u"]
 
 url = []
 name = []
