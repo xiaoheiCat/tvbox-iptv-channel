@@ -16,14 +16,14 @@ for i in range(len(url_list)):
 for i in url:
     response.append(requests.get(i).text)
 
-for i in range(len(response)):
-    lines = response[i].split('\n')
-    with open('tv-channels.txt', 'w') as f:
+with open('tv-channels.txt', 'w') as f:
+    for i in range(len(response)):
+        lines = response[i].split('\n')
         # f.write("Channels by xiaoheicat,#genre#")
         f.write(f"\n{name[i]},#genre#")
         for line in lines:
             if line.startswith('#EXTINF'):
-                cname = line.split(',')[1]
-                next_line = lines[lines.index(line) + 1]
-                curl = next_line.strip()
-                f.write(f'\n{cname},{curl}')
+            cname = line.split(',')[1]
+            next_line = lines[lines.index(line) + 1]
+            curl = next_line.strip()
+            f.write(f'\n{cname},{curl}')
