@@ -24,7 +24,7 @@ with open('tv-channels.txt', 'w') as f:
         f.write(f"\n{name[i]},#genre#")
         for line in lines:
             if line.startswith('#EXTINF'):
-                cname = line.split(',')[1]
+                cname = line.split(',')[-1]
                 next_line = lines[lines.index(line) + 1]
                 curl = next_line.strip()
                 f.write(f'\n{cname},{curl}')
