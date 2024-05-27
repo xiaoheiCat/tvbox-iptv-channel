@@ -21,6 +21,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add tv-channels-*.txt
+        git add tv-channels.txt
         git commit -m "Auto updated channel list"
         git push origin main
