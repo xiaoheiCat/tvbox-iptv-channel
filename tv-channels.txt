@@ -890,24 +890,3 @@ CGTN,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225745/index.m3u8
 西安丝路,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226370/index.m3u8
 西安教育,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226371/index.m3u8
 西安新闻综合,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226386/index.m3u8
-xiaoheiCat-CNTV,#genre#
-CCTV-1 综合,/cctv1.m3u8
-CCTV-2 财经,/cctv2.m3u8
-CCTV-3 综艺,/cctv3.m3u8
-CCTV-4 中文国际,/cctv4.m3u8
-CCTV-5 体育,/cctv5.m3u8
-CCTV-5+ 体育赛事,/cctv5plus.m3u8
-CCTV-6 电影,/cctv6.m3u8
-CCTV-7 国防军事,/cctv7.m3u8
-CCTV-8 电视剧,/cctv8.m3u8
-CCTV-9 纪录,/cctvjilu.m3u8
-CCTV-10 科教,/cctv10.m3u8
-CCTV-11 戏曲,/cctv11.m3u8
-CCTV-12 社会与法,/cctv12.m3u8
-CCTV-13 新闻,/cctv13.m3u8
-CCTV-14 少儿,/cctvchild.m3u8
-CCTV-15 音乐,/cctv15.m3u8
-CCTV-16 奥林匹克,/cctv16.m3u8
-CCTV-17 农业农村,/cctv17.m3u8
-CCTV-4 中文国际·欧洲,/cctveurope.m3u8
-CCTV-4 中文国际·美洲,/cctvamerica.m3u8
